@@ -1,0 +1,106 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+            "context": [""]
+        },
+        {
+            "tag": "options",
+            "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+            "responses": ["I can assist with medical inquiries, education resources, and entertainment suggestions."],
+            "context": [""]
+        },
+        {
+            "tag": "medical_conditions",
+            "patterns": ["Tell me about blood pressure", "What about sugar levels?", "Information on diabetes", "How to manage blood pressure?", "What diet for diabetes?"],
+            "responses": ["For blood pressure, maintain a low-sodium diet and exercise regularly.", "For sugar, consider a balanced diet with limited sugar intake."],
+            "context": [""]
+        },
+        {
+            "tag": "nearest_hospital",
+            "patterns": ["Find the nearest hospital", "Locate a hospital", "Hospital near me", "Where's the closest hospital?", "Nearest healthcare facility"],
+            "responses": ["Please provide your location or postal code."],
+            "context": ["search_hospital_by_location"]
+        },
+        {
+            "tag": "diet_advice",
+            "patterns": ["Diet advice", "Nutritional guidance", "Healthy eating tips"],
+            "responses": ["A balanced diet rich in fruits, vegetables, and whole grains is recommended for overall health."],
+            "context": [""]
+        },
+        {
+            "tag": "education",
+            "patterns": ["What are trending domains in education?", "Specialized courses available", "Available job roles in the industry", "Skills to have for jobs", "Education resources"],
+            "responses": ["Trending domains include AI, Data Science, and Cybersecurity.", "Consider courses in Machine Learning, Cloud Computing, and Digital Marketing."],
+            "context": [""]
+        },
+        {
+            "tag": "job_roles",
+            "patterns": ["Available job roles in industry", "What jobs can I get?", "List of job roles", "Job roles in demand"],
+            "responses": ["Some popular roles are Data Analyst, Software Developer, and Digital Marketer."],
+            "context": [""]
+        },
+        {
+            "tag": "entertainment",
+            "patterns": ["Suggest a movie", "What's a good movie to watch?", "Best theatres nearby", "Show me nearby theatres"],
+            "responses": ["I recommend checking out the latest blockbuster hits!", "Please provide your location for nearby theatres."],
+            "context": [""]
+        },
+        {
+            "tag": "movie_suggestions",
+            "patterns": ["Suggest movies", "Good movies to watch", "Popular films right now", "Best movies of the year"],
+            "responses": ["Consider watching 'Everything Everywhere All at Once' or 'The Batman'."],
+            "context": [""]
+        },
+        {
+            "tag": "theatre_search",
+            "patterns": ["Find me a theatre", "Nearby theatres", "Locate a cinema", "Where can I watch a movie?"],
+            "responses": ["Please provide your location or postal code."],
+            "context": ["search_theatre_by_location"]
+        },
+        {
+            "tag": "jokes",
+            "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?", "Funny jokes"],
+            "responses": ["Why did the scarecrow win an award? Because he was outstanding in his field!"],
+            "context": [""]
+        },
+        {
+            "tag": "riddles",
+            "patterns": ["Tell me a riddle", "I love riddles", "Give me a riddle to solve", "Riddles for fun"],
+            "responses": ["What has keys but can't open locks? A piano!"],
+            "context": [""]
+        },
+        {
+            "tag": "interesting_facts",
+            "patterns": ["Share an interesting fact", "Tell me something interesting", "Fun facts"],
+            "responses": ["Did you know honey never spoils? Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3000 years old!"],
+            "context": [""]
+        },
+        {
+            "tag": "life_advice",
+            "patterns": ["Give me advice on life", "What advice do you have?", "Life tips"],
+            "responses": ["Always be true to yourself and never give up on your dreams.", "It's okay to take breaks and ask for help when needed."],
+            "context": [""]
+        }
+    ]
+}
